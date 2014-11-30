@@ -11,7 +11,7 @@ else
 LDFLAGS =	-lm -lbz2 -lz -llzma -lsnappy -lmuparser
 endif
 
-CFLAGS  += 	-Wall -fPIC -I/usr/include/python2.7/ -I$(PATH_SIMILARITY) -I$(PATH_FORMULA)
+CFLAGS  += 	-Wall -fPIC -I/usr/include/python2.7/ -I$(PATH_SIMILARITY) -I$(PATH_FORMULA) -I/usr/local/include -I/usr/local/Cellar/python/2.7.8_2/Frameworks/Python.framework/Versions/2.7/include/python2.7 -I/usr/local/Cellar/python/2.7.8_2/Frameworks/Python.framework/Versions/2.7/include/python2.7
 
 mkdir	=	mkdir -p
 CD      =       cd

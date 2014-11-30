@@ -1,7 +1,7 @@
 SRC	= 	formula.cc
 
 LDFLAGS =	-lmuparser
-CFLAGS  += 	-Wall -fPIC -fpermissive
+CFLAGS  += 	-Wall -fPIC -fpermissive -I/usr/local/include
 mkdir	=	mkdir -p
 CD      =       cd
 RM      =       rm -f

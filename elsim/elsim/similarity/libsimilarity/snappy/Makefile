@@ -2,8 +2,8 @@ SRC	= 	snappy.cc
 
 CC	=	gcc
 CC2	=	g++
-LDFLAGS =	-lsnappy
-CFLAGS  +=      -Wall 
+LDFLAGS = -L/usr/local/lib	-lsnappy
+CFLAGS  +=      -Wall -I/usr/local/include
 mkdir	=	mkdir -p
 CD      =       cd
 RM      =       rm -f
