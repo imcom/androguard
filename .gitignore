@@ -1,2 +1,6 @@
 *.pyc
 *.pyo
+androguard.egg-info
+build
+dist
+elsim/elsim/elsign/formula/test
